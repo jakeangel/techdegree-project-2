@@ -31,7 +31,7 @@ img{
 }
 
 .profile-pic{
-	max-width: 350px;
+	max-width: 250px;
 	padding: 1em 1em;
 }
 
@@ -178,7 +178,6 @@ h1{
 	}
 
 	.banner{
-		font-size: 1.5em;
 		text-align: initial;
 	}
 
@@ -189,7 +188,9 @@ h1{
 
 	.profile-pic{
 		float: right;
-		margin-left: 1em;
+		margin-left: 1.5em;
+		padding: 0;
+		max-width: 350px;
 	}
 
 	.col{
@@ -228,6 +229,8 @@ h1{
 	.wrapper{
 		padding-right: 2em;
 		padding-left: 2em;
+		margin: auto;
+		max-width: 1180px;
 	}
 
 	.main-header{
@@ -242,6 +245,8 @@ h1{
 	.main-nav ul{
 		float: right;
 	}
+
+
 
 	.col{
 		width: 33.33%;
